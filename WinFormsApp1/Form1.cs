@@ -10,8 +10,8 @@ namespace WinFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             int n1 = Convert.ToInt32(textBox1.Text);
-            int n2 = Convert.ToInt32(textBox2.Text);
-            int resultado = Soma(n1, n2);
+            int n3 = Convert.ToInt32(textBox2.Text);
+            int resultado = Soma(n1, n3);
             MessageBox.Show($"O resultado da soma é {resultado}");
 
         }
